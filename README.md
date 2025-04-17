@@ -6,8 +6,6 @@ Virtual Destructor: Explicitly declared the base class destructor as virtual and
 Comments: Added concise comments to explain the purpose of classes and key methods, improving readability.
 Professional Output: English output messages are clear and professional, suitable for a production environment.
 Code Structure: Organized the code with proper spacing and logical grouping for maintainability.
-This version reflects the practices of a senior programmer, focusing on clarity, maintainability, and robustness.
-
 
 A base Car class with common features (e.g., engine status).
 Two derived classes, Pride and Benz, inheriting from Car.
