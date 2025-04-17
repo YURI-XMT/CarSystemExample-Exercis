@@ -1,0 +1,21 @@
+#include <iostream>
+#include <string>
+using namespace std;
+
+class person {
+protected:
+    string f_name = "f_name";
+    string l_name = "l_name";
+
+public:
+    virtual string GetName() {
+        return f_name + l_name;
+    }
+};
+
+int main() {
+    person p;
+    string n = p.GetName();
+    cout << "Name: " << n << endl;
+    return 0;
+}
